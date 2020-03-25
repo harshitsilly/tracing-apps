@@ -8,4 +8,4 @@ This repository is intended to aggregate system overviews for the various projec
 
 ## COVID-19 Tracing Apps
 
-* [example](./example/README.md): A fictional tracing project, provided as an example of the information this project is aiming to gather for each project
+* [Example](./projects/example/README.md): A fictional tracing project, provided as an example of the information this project is aiming to gather for each project
