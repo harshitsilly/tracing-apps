@@ -59,6 +59,10 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 * [github.com/memiah/contact-tracer](https://github.com/memiah/contact-tracer)
 * https://stopcorona.me/
 * [crowdcovid.com](https://crowdcovid.com/): [github.com/olieidel/corona-tracker](https://github.com/olieidel/corona-tracker)
+* [Corona Kavach](https://economictimes.indiatimes.com/tech/software/govt-likely-to-launch-covid-path-tracing-app/articleshow/74819186.cms): India Govt's tracing app
+	* [Corona Kavach on Google Play](https://play.google.com/store/apps/details?id=com.cosafe.android)
+* [coronamadrid.com](https://www.coronamadrid.com/)
+	* [newtral.es privacy FAQ](https://www.newtral.es/nos-preguntais-por-el-uso-de-datos-de-la-aplicacion-coronamadrid-com/20200320/?amp&__twitter_impression=true)
 * ...and lots more — you can help track the tracers by making a PR for one that's missing, or adding info to any of the above.
 
 ## Research, Analysis, and Design proposals
