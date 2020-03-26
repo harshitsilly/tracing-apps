@@ -1,6 +1,6 @@
 # COVID-19 Contact-Tracing Apps Tracker
 
-Tracing apps are proliferating; this repo is trying to keep track of them.
+Tracing apps are proliferating; this repo is trying to keep track of them, with an eye on privacy implications.
 
 ## Contact-Tracing App Projects
 
@@ -17,6 +17,23 @@ Tracing apps are proliferating; this repo is trying to keep track of them.
 	* The app downloads Keys and their associated Symptoms from the public database and searches local Interactions records to determine if any of the User's interactions were with symptomatic users
 	* No location data is captured
 
+* #### [TraceTogether](https://www.tracetogether.gov.sg/) (Singapore)
+
+	> By using time-varying tokens, the app does keep
+	the users private from each other. A user has no
+	way of knowing who the tokens stored in their app
+	belong to, except by linking them to the time the
+	token was received. However, the app provides
+	little to no privacy for infected individuals; after
+	an infected individual is compelled to release their
+	data, the Singaporean government can build a list
+	of all the other people they have been in contact
+	with.
+	(https://arxiv.org/abs/2003.11511)
+
+	Open source version announced 2020/03/25:
+	https://www.cnbc.com/2020/03/25/coronavirus-singapore-to-make-contact-tracing-tech-open-source.html
+
 * #### [Private Kit: Safe Paths](http://safepaths.mit.edu/)
 
 	**Status**: Apps are live, backends and agency integrations in development
@@ -30,11 +47,6 @@ Tracing apps are proliferating; this repo is trying to keep track of them.
 
 **Need more info:**
 
-* #### [TraceTogether](https://www.tracetogether.gov.sg/) (Singapore)
-
-	Open source version announced 2020/03/25:
-	https://www.cnbc.com/2020/03/25/coronavirus-singapore-to-make-contact-tracing-tech-open-source.html
-
 * [enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 * [corona-trace](https://corona-trace.github.io/)
 * ...and lots more — you can help track the tracers by making a PR for one that's missing, or adding info to any of the above.
@@ -46,18 +58,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them.
 
 ## Are you developing a Tracing App?
 
-**Guidelines, suggestions, and requests from the community**
-
-Here are some things that privacy and digital rights advocates would like you to consider as you are implementing a tracing solution:
-
-[Privacy/digital-rights experts: help fill in this section!]
-
-* DO
-	* PR an overview of your system into this repo
-	* Clearly and regularly let users know what information is being collected, where it is going, and how it could put them at risk
-		* If you aren't sure how the information you are collecting could put users at risk, STOP!, slow down, and post an issue to this repo asking for help understanding the implications of your design.
-* DON'T
-	* Collect "analytics"
+Please PR an overview of your system into this repo!
 
 ## Threat scenarios
 
