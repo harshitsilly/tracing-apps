@@ -55,6 +55,8 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 * [enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 * [corona-trace](https://corona-trace.github.io/)
+* https://stopcorona.me/
+* [crowdcovid.com](https://crowdcovid.com/): [github.com/olieidel/corona-tracker](https://github.com/olieidel/corona-tracker)
 * ...and lots more — you can help track the tracers by making a PR for one that's missing, or adding info to any of the above.
 
 ## Research, Analysis, and Design proposals
@@ -67,6 +69,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 * [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
 * [Electronic Frontier Foundation: COVID-19 and Digital Rights](https://www.eff.org/issues/covid-19)
 * [Top10VPN COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/)
+* https://www.digitalvaccine.net/
 
 ## Are you developing a Tracing App?
 
