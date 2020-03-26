@@ -45,6 +45,12 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	* When a user tests positive, they can choose to give their location records to a health professional, who then manually redacts personally-identifiable information and publishes the redacted data to a public database.
 	* The app downloads location data of infected cases from the public database to search against locally-stored location history
 
+* #### [covidnearyou.org](https://covidnearyou.org/)
+
+	**Status**: Live, ~2000 reported symptoms/test-results
+
+	Self-reported symptoms/test-results aggregated by zipcode
+
 **Need more info:**
 
 * [enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
