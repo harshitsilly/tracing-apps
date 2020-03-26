@@ -17,6 +17,21 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	* The app downloads Keys and their associated Symptoms from the public database and searches local Interactions records to determine if any of the User's interactions were with symptomatic users
 	* No location data is captured
 
+* #### [Private Kit: Safe Paths](http://safepaths.mit.edu/)
+
+	**Status**: Apps are live, backends and agency integrations in development
+
+	**Technical synopsis**
+
+	The Safe Paths app saves the user's GPS location data to a local encrypted store.
+
+	* When a user tests positive, they can choose to give their location records to a health professional, who then manually redacts personally-identifiable information and publishes the redacted data to a public database.
+	* The app downloads location data of infected cases from the public database to search against locally-stored location history
+
+	* Privacy questions:
+		* Does Safe Paths have requirements for organizations/agencies/governments that it is integrating with? If so, how are the entities audited against those requirements?
+		* How does the manual redaction process work?
+
 * #### [TraceTogether](https://www.tracetogether.gov.sg/) (Singapore)
 
 	> By using time-varying tokens, the app does keep
@@ -33,17 +48,6 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Open source version announced 2020/03/25:
 	https://www.cnbc.com/2020/03/25/coronavirus-singapore-to-make-contact-tracing-tech-open-source.html
-
-* #### [Private Kit: Safe Paths](http://safepaths.mit.edu/)
-
-	**Status**: Apps are live, backends and agency integrations in development
-
-	**Technical synopsis**
-
-	The Safe Paths app saves the user's GPS location data to a local encrypted store.
-
-	* When a user tests positive, they can choose to give their location records to a health professional, who then manually redacts personally-identifiable information and publishes the redacted data to a public database.
-	* The app downloads location data of infected cases from the public database to search against locally-stored location history
 
 * #### [covidnearyou.org](https://covidnearyou.org/)
 
