@@ -51,9 +51,15 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 * [corona-trace](https://corona-trace.github.io/)
 * ...and lots more — you can help track the tracers by making a PR for one that's missing, or adding info to any of the above.
 
-## Related trackers
+## Research, Analysis, and Design proposals
+
+* [Anonymous Retrospective Broadcasts](https://gist.github.com/hdevalence/fefba3153b30e60537e84f7d2551b295) ([Henry de Valence](https://github.com/hdevalenc))
+* [Contact Tracing Mobile Apps for COVID-19: Privacy Considerations and Related Trade-offs](https://arxiv.org/abs/2003.11511) (Hyunghoon Cho, Daphne Ippolito, Yun William Yu)
+
+## Related trackers and resources
 
 * [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
+* [Electronic Frontier Foundation: COVID-19 and Digital Rights](https://www.eff.org/issues/covid-19)
 * [Top10VPN COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/)
 
 ## Are you developing a Tracing App?
