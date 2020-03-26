@@ -1,14 +1,8 @@
-# COVID-19 Contact-Tracing Apps
+# COVID-19 Contact-Tracing Apps Tracker
 
-This repository is intended to aggregate system overviews for the various projects that are working on app-based contact-tracing solutions for the COVID-19 pandemic. Its purpose is to make it easier for experts to evaluate the system architectures and to help facilitate dialog between the projects and the privacy-advocacy community.
+Tracing apps are proliferating; this repo is trying to keep track of them.
 
-## COVID-19 Tracing Apps
-
-* #### [TraceTogether](https://www.tracetogether.gov.sg/) (Singapore)
-	**Status**: ~735,000 users
-
-	https://www.tracetogether.gov.sg/common/privacystatement/
-
+## Contact-Tracing App Projects
 
 * #### [CoEpi](https://www.coepi.org) | Community Epidemiology In Action
 
@@ -16,10 +10,9 @@ This repository is intended to aggregate system overviews for the various projec
 
 	**Technical synopsis**
 
-	The CoEpi app uses Bluetooth to record a list of Interactions with other users.
+	The CoEpi app uses Bluetooth to record an anonymized list of close-proximity Interactions with other users.
 
-	* In an Interaction, apps exchange temporary Contact-Event-Numbers (CEN). The other user's CEN is stored along with a timestamp for when the interaction occurred.
-	* Temporary CENs are deterministically generated from a cryptographic Key, which is private by default.
+	* In an Interaction, apps exchange temporary Contact-Event-Numbers (CEN). The other user's CEN is stored along with a timestamp for when the interaction occurred. Temporary CENs are deterministically generated from a cryptographic Key, which is private by default.
 	* User can choose to upload their Key, along with symptoms, to a public database
 	* The app downloads Keys and their associated Symptoms from the public database and searches local Interactions records to determine if any of the User's interactions were with symptomatic users
 	* No location data is captured
@@ -33,13 +26,18 @@ This repository is intended to aggregate system overviews for the various projec
 	The Safe Paths app saves the user's GPS location data to a local encrypted store.
 
 	* When a user tests positive, they can choose to give their location records to a health professional, who then manually redacts personally-identifiable information and publishes the redacted data to a public database.
-	* The app downloads location data of infected cases to search against locally-stored location history
+	* The app downloads location data of infected cases from the public database to search against locally-stored location history
 
 **Need more info:**
 
-* [enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace) ?
-* [corona-trace](https://corona-trace.github.io/) ?
-* https://covid19.privicy.com/ ?
+* #### [TraceTogether](https://www.tracetogether.gov.sg/) (Singapore)
+
+	Open source version announced 2020/03/25:
+	https://www.cnbc.com/2020/03/25/coronavirus-singapore-to-make-contact-tracing-tech-open-source.html
+
+* [enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
+* [corona-trace](https://corona-trace.github.io/)
+* ...and lots more — you can help track the tracers by making a PR for one that's missing, or adding info to any of the above.
 
 ## Related trackers
 
@@ -73,7 +71,7 @@ Here are some things that privacy and digital rights advocates would like you to
 
 ## Meta
 
-As the list above becomes more complete, this page will likely become a table with links to the more in-depth system overviews. We're pondering how to aggregate and present community concerns and discussion about the individual projects.
+We're pondering the clearest way to present the above information, and how to aggregate and present community concerns and discussion about the individual projects.
 
 ## I want to contribute to covid-apps-tracker
 
