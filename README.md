@@ -53,8 +53,10 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 **Need more info:**
 
+* [Hamagen](https://github.com/MohGovIL/hamagen-react-native): Israel's Ministry of Health's COVID-19 exposure prevention app
 * [enigmampc/SafeTrace](https://github.com/enigmampc/SafeTrace)
 * [corona-trace](https://corona-trace.github.io/)
+* [github.com/memiah/contact-tracer](https://github.com/memiah/contact-tracer)
 * https://stopcorona.me/
 * [crowdcovid.com](https://crowdcovid.com/): [github.com/olieidel/corona-tracker](https://github.com/olieidel/corona-tracker)
 * ...and lots more — you can help track the tracers by making a PR for one that's missing, or adding info to any of the above.
@@ -64,7 +66,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 * [Anonymous Retrospective Broadcasts](https://gist.github.com/hdevalence/fefba3153b30e60537e84f7d2551b295) ([Henry de Valence](https://github.com/hdevalenc))
 * [Contact Tracing Mobile Apps for COVID-19: Privacy Considerations and Related Trade-offs](https://arxiv.org/abs/2003.11511) (Hyunghoon Cho, Daphne Ippolito, Yun William Yu)
 
-## Related trackers and resources
+## Related resources
 
 * [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
 * [Electronic Frontier Foundation: COVID-19 and Digital Rights](https://www.eff.org/issues/covid-19)
