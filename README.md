@@ -66,16 +66,6 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 Please PR an overview of your system into this repo!
 
-## Threat scenarios
-
-* The One-Interaction-User scenario
-	* Sequence
-		1. Over the course of two weeks, User A only comes near one other user, User B
-		2. User B tests positive and uploads case data
-		3. User A receives a notification that they've been exposed
-		4. User A knows that User B is infected
-* ...
-
 ## Meta
 
 We're pondering the clearest way to present the above information, and how to aggregate and present community concerns and discussion about the individual projects.
