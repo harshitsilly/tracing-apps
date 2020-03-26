@@ -43,6 +43,7 @@ This repository is intended to aggregate system overviews for the various projec
 
 ## Related trackers
 
+* [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
 * [Top10VPN COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/)
 
 ## Are you developing a Tracing App?
