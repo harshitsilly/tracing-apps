@@ -55,6 +55,16 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Self-reported symptoms/test-results aggregated by zipcode
 
+* #### [COVID Watch](https://www.covid-watch.org) 
+
+	**Status**: In beta testing
+
+	**Technical synopsis**
+
+	* Similar to the CoEpi app, COVID Watch uses Bluetooth to record an anonymized list of close-proximity interactions with other users. The main difference is that rather than self-reporting symptoms, COVID Watch aims to validate diagnoses through confirmation from health agencies.
+	* There are also plans to add an anonymised GPS heatmap.
+	* Currently in the process of consulting with other contact tracing programs to develop common APIs and reusable modules, to speed up all efforts and benefit from network effects rather than a fragmented userbase.
+	
 **Need more info:**
 
 * [Hamagen](https://github.com/MohGovIL/hamagen-react-native): Israel's Ministry of Health's COVID-19 exposure prevention app
