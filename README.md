@@ -61,6 +61,12 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
 
+* #### [COVID Watch](https://covid-watch.org/)
+
+	**Status**: We have working proof of concepts of all of the individual components of the final app, and are in early-stage talks with public health authorities.
+
+	[Whitepaper](https://covid-watch.org/article)
+
 
 **Need more info:**
 
