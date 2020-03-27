@@ -66,6 +66,8 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	**Status**: We have working proof of concepts of all of the individual components of the final app, and are in early-stage talks with public health authorities.
 
 	[Whitepaper](https://covid-watch.org/article)
+	
+	[Code](https://github.com/covid19risk)
 
 
 **Need more info:**
