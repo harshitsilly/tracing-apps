@@ -55,6 +55,21 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Self-reported symptoms/test-results aggregated by zipcode
 
+* #### [Letstrace.org](https://letstrace.org/)
+
+	**Status**: Getting the source code to the app and building the landing page.
+
+	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
+
+* #### [COVID Watch](https://covid-watch.org/)
+
+	**Status**: We have working proof of concepts of all of the individual components of the final app, and are in early-stage talks with public health authorities.
+
+	[Whitepaper](https://covid-watch.org/article)
+	
+	[Code](https://github.com/covid19risk)
+
+
 **Need more info:**
 
 * [Hamagen](https://github.com/MohGovIL/hamagen-react-native): Israel's Ministry of Health's COVID-19 exposure prevention app
