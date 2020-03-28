@@ -66,7 +66,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	**Status**: We have working proof of concepts of all of the individual components of the final app, and are in early-stage talks with public health authorities.
 
 	[Whitepaper](https://covid-watch.org/article)
-	
+
 	[Code](https://github.com/covid19risk)
 
 
@@ -91,6 +91,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 ## Related resources
 
+* [CARES Act, Sec. 4223. Guidance on Protected Health Information](https://www.congress.gov/bill/116th-congress/senate-bill/3548/text#toc-idA2F80714577D4F3B807511BCB4F3ECA5)
 * [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
 * [Electronic Frontier Foundation: COVID-19 and Digital Rights](https://www.eff.org/issues/covid-19)
 * [Top10VPN COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/)
