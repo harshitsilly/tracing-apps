@@ -4,6 +4,21 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 ## Contact-Tracing App Projects
 
+* #### [Private Kit: Safe Paths](http://safepaths.mit.edu/)
+
+	**Status**: Apps are live, backends and agency integrations in development
+
+	**Technical synopsis**
+
+	The Safe Paths app saves the user's GPS location data to a local encrypted store.
+
+	* When a user tests positive, they can choose to give their location records to a health professional, who then manually redacts personally-identifiable information and publishes the redacted data to a public database.
+	* The app downloads location data of infected cases from the public database to search against locally-stored location history
+
+	* Questions:
+		* Does Safe Paths have requirements for organizations/agencies/governments that it is integrating with? If so, how are the entities audited against those requirements?
+		* How does the manual redaction process work?
+
 * #### [CoEpi](https://www.coepi.org) | Community Epidemiology In Action
 
 	**Status**: In development
@@ -17,20 +32,15 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	* The app downloads Keys and their associated Symptoms from the public database and searches local Interactions records to determine if any of the User's interactions were with symptomatic users
 	* No location data is captured
 
-* #### [Private Kit: Safe Paths](http://safepaths.mit.edu/)
+* #### [COVID Watch](https://www.covid-watch.org)
 
-	**Status**: Apps are live, backends and agency integrations in development
+	**Status**: In beta testing
 
 	**Technical synopsis**
 
-	The Safe Paths app saves the user's GPS location data to a local encrypted store.
-
-	* When a user tests positive, they can choose to give their location records to a health professional, who then manually redacts personally-identifiable information and publishes the redacted data to a public database.
-	* The app downloads location data of infected cases from the public database to search against locally-stored location history
-
-	* Privacy questions:
-		* Does Safe Paths have requirements for organizations/agencies/governments that it is integrating with? If so, how are the entities audited against those requirements?
-		* How does the manual redaction process work?
+	* Similar to the CoEpi app, COVID Watch uses Bluetooth to record an anonymized list of close-proximity interactions with other users. The main difference is that rather than self-reporting symptoms, COVID Watch aims to validate diagnoses through confirmation from health agencies.
+	* There are also plans to add an anonymised GPS heatmap.
+	* Currently in the process of consulting with other contact tracing programs to develop common APIs and reusable modules, to speed up all efforts and benefit from network effects rather than a fragmented userbase.
 
 * #### [TraceTogether](https://www.tracetogether.gov.sg/) (Singapore)
 
@@ -49,27 +59,17 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	Open source version announced 2020/03/25:
 	https://www.cnbc.com/2020/03/25/coronavirus-singapore-to-make-contact-tracing-tech-open-source.html
 
-* #### [covidnearyou.org](https://covidnearyou.org/)
-
-	**Status**: Live, ~2000 reported symptoms/test-results
-
-	Self-reported symptoms/test-results aggregated by zipcode
-
-* #### [COVID Watch](https://www.covid-watch.org) 
-
-	**Status**: In beta testing
-
-	**Technical synopsis**
-
-	* Similar to the CoEpi app, COVID Watch uses Bluetooth to record an anonymized list of close-proximity interactions with other users. The main difference is that rather than self-reporting symptoms, COVID Watch aims to validate diagnoses through confirmation from health agencies.
-	* There are also plans to add an anonymised GPS heatmap.
-	* Currently in the process of consulting with other contact tracing programs to develop common APIs and reusable modules, to speed up all efforts and benefit from network effects rather than a fragmented userbase.
-
 * #### [Letstrace.org](https://letstrace.org/)
 
 	**Status**: Getting the source code to the app and building the landing page.
 
 	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
+
+* #### [covidnearyou.org](https://covidnearyou.org/)
+
+	**Status**: Live, ~2000 reported symptoms/test-results
+
+	Self-reported symptoms/test-results aggregated by zipcode
 
 **Need more info:**
 
@@ -93,6 +93,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 ## Related resources
 
 * [CARES Act, Sec. 4223. Guidance on Protected Health Information](https://www.congress.gov/bill/116th-congress/senate-bill/3548/text#toc-idA2F80714577D4F3B807511BCB4F3ECA5)
+	* (via https://civics.com/2020/03/27/sharing-covid-19-health-data/)
 * [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
 * [Electronic Frontier Foundation: COVID-19 and Digital Rights](https://www.eff.org/issues/covid-19)
 * [Top10VPN COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/)
