@@ -61,13 +61,15 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
 
-* #### [COVID Watch](https://covid-watch.org/)
+* #### [COVID Watch](https://www.covid-watch.org)
 
-	**Status**: We have working proof of concepts of all of the individual components of the final app, and are in early-stage talks with public health authorities.
+	**Status**: In beta testing
 
-	[Whitepaper](https://covid-watch.org/article)
+	**Technical synopsis**
 
-	[Code](https://github.com/covid19risk)
+	* Similar to the CoEpi app, COVID Watch uses Bluetooth to record an anonymized list of close-proximity interactions with other users. The main difference is that rather than self-reporting symptoms, COVID Watch aims to validate diagnoses through confirmation from health agencies.
+	* There are also plans to add an anonymised GPS heatmap.
+	* Currently in the process of consulting with other contact tracing programs to develop common APIs and reusable modules, to speed up all efforts and benefit from network effects rather than a fragmented userbase.
 
 
 **Need more info:**
