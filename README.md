@@ -64,7 +64,13 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	* Similar to the CoEpi app, COVID Watch uses Bluetooth to record an anonymized list of close-proximity interactions with other users. The main difference is that rather than self-reporting symptoms, COVID Watch aims to validate diagnoses through confirmation from health agencies.
 	* There are also plans to add an anonymised GPS heatmap.
 	* Currently in the process of consulting with other contact tracing programs to develop common APIs and reusable modules, to speed up all efforts and benefit from network effects rather than a fragmented userbase.
-	
+
+* #### [Letstrace.org](https://letstrace.org/)
+
+	**Status**: Getting the source code to the app and building the landing page.
+
+	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
+
 **Need more info:**
 
 * [Hamagen](https://github.com/MohGovIL/hamagen-react-native): Israel's Ministry of Health's COVID-19 exposure prevention app
@@ -86,6 +92,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 ## Related resources
 
+* [CARES Act, Sec. 4223. Guidance on Protected Health Information](https://www.congress.gov/bill/116th-congress/senate-bill/3548/text#toc-idA2F80714577D4F3B807511BCB4F3ECA5)
 * [Privacy International: Tracking the Global Response to COVID-19](https://privacyinternational.org/examples/tracking-global-response-covid-19)
 * [Electronic Frontier Foundation: COVID-19 and Digital Rights](https://www.eff.org/issues/covid-19)
 * [Top10VPN COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/)
