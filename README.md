@@ -55,13 +55,7 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Self-reported symptoms/test-results aggregated by zipcode
 
-* #### [Letstrace.org](https://letstrace.org/)
-
-	**Status**: Getting the source code to the app and building the landing page.
-
-	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
-
-* #### [COVID Watch](https://www.covid-watch.org)
+* #### [COVID Watch](https://www.covid-watch.org) 
 
 	**Status**: In beta testing
 
@@ -71,6 +65,11 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 	* There are also plans to add an anonymised GPS heatmap.
 	* Currently in the process of consulting with other contact tracing programs to develop common APIs and reusable modules, to speed up all efforts and benefit from network effects rather than a fragmented userbase.
 
+* #### [Letstrace.org](https://letstrace.org/)
+
+	**Status**: Getting the source code to the app and building the landing page.
+
+	Kyle Corbitt and a few other team members at Y Combinator. Also in contact with the Trace Together team in Singapore and some COVID "influencers" on Twitter. Starting conversations with state/local governments.
 
 **Need more info:**
 
