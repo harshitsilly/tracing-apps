@@ -71,6 +71,35 @@ Tracing apps are proliferating; this repo is trying to keep track of them, with 
 
 	Self-reported symptoms/test-results aggregated by zipcode
 
+* #### [Posiship](https://github.com/McKean/positive-devices)
+
+	**Status**: Testing
+
+	Positive Relationship
+	A trace service with history rewind provided as an API as a service!
+
+	The goal is to facilitate adoption by allowing developers of existing
+	apps to integrate the functionality in an easy way.
+
+	Conventions and security (hashing, obfuscation) can be built around the service.
+
+	[![asciicast](https://asciinema.org/a/JqsdKCnVxeqKBSMz95riTUk3f.svg)](https://asciinema.org/a/JqsdKCnVxeqKBSMz95riTUk3f)
+
+	Test endpoint: https://api.test.posiship.com/v1/
+	```
+	POST /v1/add
+	```
+	include params `id` and `seen`
+	```
+	POST /v1/report
+	```
+	include param `id`
+	```
+	GET /v1/check?id={id}
+	```
+	provide `id` as query param
+
+
 **Need more info:**
 
 * [Hamagen](https://github.com/MohGovIL/hamagen-react-native): Israel's Ministry of Health's COVID-19 exposure prevention app
